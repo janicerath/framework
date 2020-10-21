@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="EdgeTest(failed)" parallel="tests">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.SeleniumTest.XeroLogin">
+        <methods>
+          <include name="AfterSuite"/>
+          <include name="TC1D"/>
+          <include name="TC1ABC"/>
+          <include name="setup"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- com.SeleniumTest.XeroLogin -->
+      <class name="com.SeleniumTest.TC2_TrailPage">
+        <methods>
+          <include name="setup"/>
+          <include name="TC2A"/>
+          <include name="BeforeMethod"/>
+          <include name="TC2C"/>
+          <include name="TC2B"/>
+          <include name="TC2E"/>
+          <include name="TC2D"/>
+          <include name="AfterSuite"/>
+        </methods>
+      </class> <!-- com.SeleniumTest.TC2_TrailPage -->
+      <class name="com.SeleniumTest.TC3DB_4Logout">
+        <methods>
+          <include name="TC4_logout"/>
+          <include name="TC3"/>
+          <include name="AfterSuite"/>
+          <include name="setup"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- com.SeleniumTest.TC3DB_4Logout -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="5" name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.SeleniumTest.TC2_TrailPage">
+        <methods>
+          <include name="setup"/>
+          <include name="TC2A"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterSuite"/>
+        </methods>
+      </class> <!-- com.SeleniumTest.TC2_TrailPage -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

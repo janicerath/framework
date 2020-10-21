@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65679" started-at="2020-10-21T21:19:40Z" finished-at="2020-10-21T21:20:46Z">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="65679" started-at="2020-10-21T21:19:40Z" finished-at="2020-10-21T21:20:46Z">
+      <class name="testNG.framework.TestClassUsingListerners">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testNG.framework.TestClassUsingListerners@6d293993]" name="setup" is-config="true" duration-ms="16875" started-at="2020-10-21T21:19:40Z" finished-at="2020-10-21T21:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:testNG.framework.TestClassUsingListerners@6d293993]" name="BeforeMethod" is-config="true" duration-ms="4018" started-at="2020-10-21T21:19:57Z" finished-at="2020-10-21T21:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC1D()[pri:1, instance:testNG.framework.TestClassUsingListerners@6d293993]" name="TC1D" duration-ms="13476" started-at="2020-10-21T21:20:01Z" finished-at="2020-10-21T21:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1D -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:testNG.framework.TestClassUsingListerners@6d293993]" name="BeforeMethod" is-config="true" duration-ms="654" started-at="2020-10-21T21:20:17Z" finished-at="2020-10-21T21:20:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC1ABC(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testNG.framework.TestClassUsingListerners@6d293993]" name="TC1ABC" duration-ms="5621" started-at="2020-10-21T21:20:18Z" data-provider="loginUserData" finished-at="2020-10-21T21:20:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janice_wmtse@yahoo.ca]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='x-boxed warning']//p]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1ABC -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:testNG.framework.TestClassUsingListerners@6d293993]" name="BeforeMethod" is-config="true" duration-ms="1064" started-at="2020-10-21T21:20:23Z" finished-at="2020-10-21T21:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC1ABC(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testNG.framework.TestClassUsingListerners@6d293993]" name="TC1ABC" duration-ms="4885" started-at="2020-10-21T21:20:24Z" data-provider="loginUserData" finished-at="2020-10-21T21:20:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janice_tse@abc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[654321.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='x-boxed warning']//p]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1ABC -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:testNG.framework.TestClassUsingListerners@6d293993]" name="BeforeMethod" is-config="true" duration-ms="1242" started-at="2020-10-21T21:20:29Z" finished-at="2020-10-21T21:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TC1ABC(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testNG.framework.TestClassUsingListerners@6d293993]" name="TC1ABC" duration-ms="14304" started-at="2020-10-21T21:20:30Z" data-provider="loginUserData" finished-at="2020-10-21T21:20:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janice_wmtse@yahoo.ca]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Xero1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='xrh-header--main']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1ABC -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testNG.framework.TestClassUsingListerners@6d293993]" name="afterClass" is-config="true" duration-ms="1296" started-at="2020-10-21T21:20:45Z" finished-at="2020-10-21T21:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNG.framework.TestClassUsingListerners -->
+    </test> <!-- login -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,12 @@
+com\XeroPages\LogoutPO.class
+com\SeleniumTest\TC2_TrailPage.class
+com\XeroPages\addOrganPO.class
+com\XeroPages\loginPO.class
+com\SeleniumTest\TC3DB_4Logout.class
+com\XeroPages\trailPO.class
+com\SeleniumTest\TC6_uploadphoto.class
+com\SeleniumTest\XeroLogin.class
+com\XeroPages\uploadPhotoPO.class
+com\XeroPages\DashBoardPO.class
+com\XeroPages\accountPO.class
+com\SeleniumTest\TC10account.class
